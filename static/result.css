@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(63, 63, 63);
+}
+
+.owners p {
+    color:  white;
+
+}
+.owners {
+    background-color: rgb(10, 0, 69);
+    display: flex;
+    position: fixed;
+    margin-top: 550px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

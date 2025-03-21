@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="../static/type.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="outer">
+        <h1 class="h1-head">Typing Speed Test &nbsp;<i class="fa-solid fa-keyboard"></i></h1>
+        <hr>
+        <marquee>Keep Calm and type on! <i class="fa-solid fa-hand-peace"></i></marquee>
+        <hr>
+        <p id="sentence">{{sentence}}</p>
+        <textarea id="typingArea" rows="5" cols="100"></textarea><br><br>
+        <button id="submitBtn">Check Speed</button>
+        <p id="result"></p>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
