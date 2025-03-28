@@ -1,22 +1,26 @@
 body {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(36, 36, 36);
+    height: 200vh;
+}
+#sentence {
+    color: rgb(177, 177, 177);
 }
 p {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
     letter-spacing: 3px;
-    padding-top: 100px;
+    padding-top: 25px;
 }
 .outer {
     padding-top: 20px;
     padding-left: 100px;
 }
 textarea {
-    background-color: rgb(76, 76, 76);
+    background-color: rgb(57, 57, 57);
     border: none;
     font-size: 20px;
-    color: #ccff00;
+    color: #b8d73c;
 }
 #submitBtn {
     background-color: #b8e200;
@@ -47,8 +51,32 @@ textarea {
 marquee {
     color: rgb(0, 255, 204);
     font-size: 20px;
+    padding-left: 600px;
     font-family: sans-serif;
+    
 }
 .result {
     transition: 2s ease-in-out;
+    border: 2px solid rgb(0, 0, 125);
+    box-shadow: 0 0 10px rgb(79, 0, 157);
+}
+
+.timer {
+    color: rgb(206, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 400;
+    background-color: #9ee200;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 0 20px goldenrod;
+    
+}
+.para {
+    width: 70vw;
+}
+hr {
+    width: 90vw;
 }

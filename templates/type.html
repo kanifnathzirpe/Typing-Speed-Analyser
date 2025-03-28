@@ -13,8 +13,11 @@
         <hr>
         <marquee>Keep Calm and type on! <i class="fa-solid fa-hand-peace"></i></marquee>
         <hr>
-        <p id="sentence">{{sentence}}</p>
-        <textarea id="typingArea" rows="5" cols="100"></textarea><br><br>
+        <div class="timer">30</div>
+        <div class="para">
+            <p id="sentence">{{sentence}}</p>
+        </div>
+        <textarea onclick="timerCountdown()" id="typingArea" rows="5" cols="100"></textarea><br><br>
         <button id="submitBtn">Check Speed</button>
         <p id="result"></p>
     </div>
